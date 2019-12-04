@@ -14,10 +14,6 @@ body {
 }
 
 body {
-	overflow-x: hidden;
-}
-
-body {
 	font-family: 'Roboto-Regular', sans-serif;
 	font-weight: 400;
 	font-size: 15px;
@@ -78,6 +74,8 @@ ul, li{
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;
+	position: relative;
+	overflow-x: hidden;
 }
 
 .content {
