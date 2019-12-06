@@ -1736,7 +1736,8 @@ button.icon-unsorted {
 /*PAGE 404*/
 
 .page-404__wrapper,
-.about__wrapper {
+.about__wrapper,
+.contact__wrapper {
 	border: 1px solid #dcdcdc;
 	background-color: #fff;
 	margin-bottom: 150px;
@@ -1744,7 +1745,7 @@ button.icon-unsorted {
 
 .page-404__head,
 .about__head,
- {
+.contact__head {
 	@include f500;
 	font-size: 24px;
 	color: #444;
@@ -1819,6 +1820,18 @@ button.icon-unsorted {
 	p{
 		margin-bottom: 40px;
 	}
+}
+
+
+						/*PAGE CONTACT*/
+
+.contact__head {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.contact__inner {
+	padding: 0px 40px;
 }
 
 
