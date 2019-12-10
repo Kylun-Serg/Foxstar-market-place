@@ -1239,9 +1239,10 @@ button.icon-unsorted {
 .product-page__content {
 	width: 100%;
 	.product__item {
-		max-width: 270px;
+		flex-basis: calc(33.333333% - 30px);
 		background-color: #fff;
 		transition: all 1s;
+		margin-left: 30px;
 		&-img {
 			min-height: 180px;
 		}
@@ -1268,8 +1269,9 @@ button.icon-unsorted {
 .product-page-items {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: flex-start;
 	margin-bottom: 30px;
+	margin-left: -30px;
 }
 
 .pagination__list {
@@ -1337,6 +1339,7 @@ button.icon-unsorted {
 .product__item{
 	&.list {
 		max-width: 100%;
+		flex-basis: 100%;
 		.product__item-img {
 			width: 240px;
 			float: left;
@@ -1394,7 +1397,7 @@ button.icon-unsorted {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 16px 0;
+	padding: 16px;
 }
 
 .product-one__images {

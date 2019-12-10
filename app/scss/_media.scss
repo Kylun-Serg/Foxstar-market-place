@@ -17,6 +17,43 @@
 			width: 100%; 
 		}
 	}
+
+	.productmini {
+		max-width: 48%;
+	}
+
+	.product-one__inner {
+		display: block;
+		.aside__item {
+			width: 100%;
+		}
+	}
+
+	.product-one__content {
+		max-width: 100%;
+		margin-right: 0;
+	}
+
+	.product-one__images {
+		max-width: 100%;
+	}
+
+	.product-page__inner {
+		display: block;
+
+		.aside__item {
+			width: 100%;
+		}
+	}
+
+	.top-sellers{
+		display: none;
+	}
+
+	.product-page__aside {
+		margin-right: 0;
+	}
+
 }
 
 @media (max-width: 1150px) {
@@ -67,6 +104,39 @@
 
 	.contact__box {
 		display: block;
+	}
+
+	.profile__inner {
+		flex-direction: column-reverse;
+	}
+
+	.profile__content {
+		margin-bottom: 20px;
+	}
+
+	.profile__asside {
+		max-width: 100%;
+		.aside__item {
+			width: 100%;
+		}
+	}
+
+	.profile__aside-btn {
+		width: 300px;
+	}
+
+	.product-page__content .product__item {
+	    flex-basis: calc(50% - 20px);
+	    margin-left: 20px;
+	    margin-bottom: 20px;
+	}
+
+	.product-page-items {
+		margin-left: -20px;
+	}
+
+	.product__item.list {
+		flex-basis: 100%;
 	}
 }
 
@@ -130,6 +200,18 @@
 	.upload__inner-title {
 		padding: 16px 10px 18px;
 	}
+
+	.product-one__box {
+		display: block;
+	}
+
+	.product-one__link {
+		margin-bottom: 20px;
+	}
+
+	.icon-th-list {
+		display: none;
+	}
 }
 
 @media (max-width: 740px) {
@@ -162,6 +244,44 @@
 	.circle__menu {
 		right: auto;
 	}
+
+	.profile__banner-images {
+		min-height: 245px;
+	}
+
+	.profile__items {
+		display: block;
+	}
+
+	.profile__item {
+		width: 100%;
+		&+.profile__item {
+			border-top: 1px solid #dedede;
+			border-left: none;
+		}
+	}
+
+	.profile__banner {
+		margin-bottom: 20px;
+	}
+
+	.product-one__tabs {
+		.tabs {
+			display: block;
+			.tab {
+				display: block;
+				&+.tab {
+					border-top: 1px solid #dedede;
+				}
+			}
+		}
+	}
+
+	.productmini {
+		max-width: 100%;
+	}
+
+
 }
 
 @media (max-width: 590px) {
@@ -218,6 +338,38 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+
+	.contact__map iframe {
+		height: 300px;
+	}
+
+	.personal-box {
+		padding: 35px 10px 25px;
+	}
+
+	.profile__aside-btn {
+		width: 280px;
+	}
+
+	.tabs-tems__list {
+		column-gap: 0px;
+		column-count: 1;
+	}
+
+	.product-one__link{
+		a {
+			width: 100%;
+			margin-bottom: 15px;
+			&+a {
+				margin-left: 0;
+			}
+		}
+		
+	}
+	.product-one__images {
+		height: 300px;
+	}
+
 }
 
 @media (max-width: 520px) {
