@@ -1,11 +1,33 @@
+@media (max-width: 1900px) {
+	.product-slider__inner {
+		text-align: center;
+	}
+	.product__item-category {
+		text-align: left;
+	}
+}
+
+@media (max-width: 1440px) {
+	.product-slider__inner {
+		.product__item {
+			max-width: 560px;
+		}
+	}
+}
+
 @media (max-width: 1400px) {
-	.product__item {
+	.products .product__item {
 		flex-basis: calc(33.33333% - 30px);
 	}
 }
 
 
 @media (max-width: 1200px) {
+
+	.tutorial__item {
+		padding: 0 5px;
+	}
+
 	.withdrawals__inner {
 		display: block;
 	}
@@ -61,6 +83,12 @@
 		margin-right: 0;
 	}
 
+	.product-slider__inner {
+		.product__item {
+			max-width: 350px;
+		}
+	}
+
 }
 
 @media (max-width: 1150px) {
@@ -76,7 +104,7 @@
 		display: none;
 	}
 
-	.product__item {
+	.products .product__item {
 		flex-basis: calc(50% - 30px);
 		max-width: 100%;
 	}
@@ -95,6 +123,20 @@
 		margin-bottom: 20px;
 		max-width: 100%;
 	}
+
+	.tutorial__inner{
+		flex-wrap: wrap;
+		margin-left: -20px;
+	}
+
+	.tutorial__item {
+		padding: 0;
+		margin-left: 20px;
+		max-width: 100%;
+		flex-basis: calc(50% - 20px);
+		margin-bottom: 20px;
+	}
+
 }
 
 
@@ -109,6 +151,15 @@
 
 
 @media (max-width: 900px) {
+
+	.advantages__inner {
+		display: block;
+	}
+
+	.advantages__item {
+		margin-bottom: 30px;
+		max-width: 100%;
+	}
 	
 	.footer__col-social{
 		min-width: 100%;
@@ -162,6 +213,11 @@
 }
 
 @media (max-width: 840px) {
+
+	.author {
+		min-height: 450px;
+	}
+
 	.menu__list {
 		background-color: $bg;
 		display: none;
@@ -235,6 +291,14 @@
 	}
 }
 
+@media (max-width: 800px) {
+	.product-slider__inner {
+		.product__item {
+			max-width: 100%;
+		}
+	}
+}
+
 @media (max-width: 740px) {
 	.page-404__404 {
 		font-size: 200px;
@@ -255,13 +319,30 @@
 		padding: 10px 30px 8px;
 	}
 
-	.product__item {
+	.products .product__item {
 		flex-basis: 100%;
 		max-width: 100%;
+	}
+
+	.author__box {
+		display: block;
+		padding: 50px 15px;
+		text-align: center;
+	}
+
+	.author__title {
+		margin-right: auto;
+		margin-bottom: 20px;
+		margin-left: auto;
 	}
 }
 
 @media (max-width: 640px){
+
+	.tutorial__item {
+		flex-basis: 100%;
+	}
+
 	.notification__box,
 	.message__box {
 		display: none;
@@ -319,6 +400,9 @@
 	.products__inner-btn {
 		button {
 			width: 100%;
+			& + button {
+			margin-left: 0;
+			}
 		}
 		
 	}
@@ -413,6 +497,16 @@
 }
 
 @media (max-width: 520px) {
+
+	.creat__acc {
+		width: 100%;
+	}
+
+	.login__wrapper button {
+		margin-right: 0;
+		width: 100%;
+	}
+
 	.menu__list {
 		top: 70px;
 	}
@@ -510,10 +604,25 @@
 		padding: 0px 10px;
 	}
 
+	.product-slider .slick-dots li button {
+		width: 13px;
+		height: 13px;
+	}
+
+	.product-slider .slick-dots li {
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+
 
 }
 
 @media (max-width: 390px) {
+
+	.fancybox-content {
+		padding: 44px 10px;
+	}
+
 	.header__box {
 		&.active {
 			left: 47px;
