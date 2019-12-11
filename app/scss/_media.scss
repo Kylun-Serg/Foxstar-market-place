@@ -1,3 +1,10 @@
+@media (max-width: 1400px) {
+	.product__item {
+		flex-basis: calc(33.33333% - 30px);
+	}
+}
+
+
 @media (max-width: 1200px) {
 	.withdrawals__inner {
 		display: block;
@@ -68,6 +75,15 @@
 	.header__text {
 		display: none;
 	}
+
+	.product__item {
+		flex-basis: calc(50% - 30px);
+		max-width: 100%;
+	}
+
+	.product__item-img {
+		min-height: 225px;
+	}
 }
 
 @media (max-width: 1020px) {
@@ -137,6 +153,11 @@
 
 	.product__item.list {
 		flex-basis: 100%;
+	}
+
+	.search__inner-title {
+		font-size: 35px;
+		line-height: 40px;
 	}
 }
 
@@ -233,6 +254,11 @@
 	.page-404__link {
 		padding: 10px 30px 8px;
 	}
+
+	.product__item {
+		flex-basis: 100%;
+		max-width: 100%;
+	}
 }
 
 @media (max-width: 640px){
@@ -282,6 +308,20 @@
 	}
 
 
+
+	.product-page__content .product__item {
+	    flex-basis: 100%;
+	    margin-left: 20px;
+	    margin-bottom: 20px;
+	    max-width: 100%;
+	}
+
+	.products__inner-btn {
+		button {
+			width: 100%;
+		}
+		
+	}
 }
 
 @media (max-width: 590px) {
